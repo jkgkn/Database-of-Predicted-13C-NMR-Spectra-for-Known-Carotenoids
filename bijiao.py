@@ -167,7 +167,7 @@ with open("path_to_output2/jkytestn.csv", 'w') as f:  f.write("key,num,numz,dyna
 ###########数据集中所有进行两两比对选用#########
 #所有比较
 dictseq2={}
-with open("/storage2/JK49/lipidmapsDB/MNvoa/chunjing/jkytestnss.csv", 'w') as f: 
+with open("path_to_output3/jkytestnss.csv", 'w') as f: 
     f.write("key1,key2,num,numz,dynamic_time_warping,cosine_similarity_distance,pearson_correlation,manhattan_distance,euclidean_distance,tanimoto_similarity\n")
     for key  in dictseq:
         for key2 in dictseq:
